@@ -8,3 +8,4 @@ wheel~=0.37.1
 djangorestframework~=3.13.1
 markdown
 django-filter
+psycopg2
