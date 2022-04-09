@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snippets</title>
+</head>
+<body>
+<table>
+    {% for p in data %}
+        <tr style="background-color: aliceblue">
+            <td style="margin-left: 50px">{{ p.created }}</td>
+            <td style="margin-left: 50px">{{ p.title }}</td>
+            <td style="margin-left: 50px">{{ p.code }}</td>
+            <td style="margin-left: 50px">{{ p.linenos }}</td>
+            <td style="margin-left: 50px">{{ p.language }}</td>
+            <td style="margin-left: 50px">{{ p.style }}</td>
+        </tr>
+
+    {% endfor %}
+</table>
+</body>
+</html>
